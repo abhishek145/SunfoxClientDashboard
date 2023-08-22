@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.393d48e4.css",
+    "main.js": "/static/js/main.3947594b.js",
+    "static/media/Spandan.png": "/static/media/Spandan.bcd2f39d71b6cedb5ad9.png",
+    "static/media/OIP.jpg": "/static/media/OIP.d9ced083b7b460d7493a.jpg",
+    "index.html": "/index.html",
+    "main.393d48e4.css.map": "/static/css/main.393d48e4.css.map",
+    "main.3947594b.js.map": "/static/js/main.3947594b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393d48e4.css",
+    "static/js/main.3947594b.js"
+  ]
+}

@@ -1,0 +1,221 @@
+.dashboard,.ecgtests{
+    width: 95%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right:3em;
+    gap: 4%;
+}
+.dashboard-container {
+    width: 125%;
+    overflow-x: scroll;
+  }
+  .dashboard-container::-webkit-scrollbar{
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .ecgtests{
+        overflow-x: scroll
+    }
+    .ecgtests>.tlead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        width: 40%;
+    }
+    .ecgtests>.tlead>.icons{
+       display: none;
+    }
+    
+    .ecgtests>.ecgtestdevive ,.ecgtestdevive{
+     display: none;
+    }
+  }
+.dashboard{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+}
+.dashboard::-webkit-scrollbar{
+    display: none;
+}
+.componentdevice>h4,h5{
+    margin-left: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+}
+.componentdevice>h5{
+   margin-top: -20px;
+   color:  #929292;
+   font-size: 20px;
+}
+.componentdevice>h4{
+    font-size: 28px;
+ }
+ 
+
+.dashboard>.spandanimg,.dashboard>.spandandata{
+    height: 200px;
+    width: 546px !important;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+    color: #A9A9A9;
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    border: 1px solid #E0E0E0
+}
+.griddata>.spandandata>h3,.griddata>.spandandataone>h3{
+    color: black;
+}
+.fullhome>h3,.fullhome>p,h3{
+    margin-left: 25px;
+    color: wheat;
+}
+.fullhome>h3,h3{
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+}
+.fullhome>p{
+    font-size: 20px;
+    color:  #929292;
+    font-size: 400;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.tlead, .leadtwo, .hrv {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+  height: 150px;
+  width: 27%;
+  border-radius: 8px;
+  background-color: ECF6FF;
+  border: 1px solid rgba(12, 151, 226, 1);
+  overflow: hidden;
+}
+.spandanimages{
+    height: 170px;
+    width: 195px;
+    background-image: url('../Spandan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 10px;
+    border: none;
+}
+
+.spandandata{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.spandandata>.DeviceName{
+    width: 130px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #121212;
+
+}
+.spandandata{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+}
+.btnclick{
+      background: none;
+      border: none;
+      font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: left;
+        color: rgba(241, 80, 86, 1);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    background-color: black;
+}
+.datashown {
+    flex-direction: column;
+    column-gap: 10px;
+ }
+ .datashown>.ecgtestdevive,.ecgtesttitle,button{
+    margin-top: -5px;
+ }
+ .ecgtests{
+    width: 100%;
+    margin-top: -40px;
+ }
+ .ecgtesttitle{
+    color: rgba(15, 112, 200, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+ }
+ .chartshow{
+    width: 95%;
+    height: 500px;
+ }
+ .chart{
+    margin-top: 20;
+    margin-right: 30;
+    margin-left: 0;
+    margin-bottom:5;
+ }
+ 
+ @media (max-width: 768px) {
+    .chartshow{
+        width: 200% !important;
+        height: 500px;
+        overflow-x: scroll;
+     }
+     .billinggraph{
+        overflow-x: scroll;
+     }
+     .chart{
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom:0;
+     }
+ }
+
+ 

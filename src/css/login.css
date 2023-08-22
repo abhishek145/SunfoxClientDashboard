@@ -1,0 +1,98 @@
+.showcontent, .loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em auto;
+}
+
+.showcontent {
+    margin-top: 8%;
+}
+
+.loading input[type="text"],
+.loading input[type="password"] {
+    height: 38px;
+    width: 430px;
+    border-radius: 8px;
+    color: black;
+    border: none;
+    background-color: #F2F9FF;
+    outline: none;
+    padding-left: 10px;
+}
+
+.label {
+    margin-top: 5%;
+    margin-bottom: 7px;
+    font-weight: 500;
+    height: 20px;
+    width: 150px;
+    text-align: left;
+    color: #121212;
+    font-size: 14px;
+    margin-left: -280px;
+}
+
+.loading button {
+    background-color: #4369CE;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 450px;
+    height: 35px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.showcontent p {
+    color: #595959;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: -2%;
+}
+
+.showcontent .heading h3 {
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    color: #121212;
+    margin-bottom: -5%;
+}
+
+.sunfoxlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 8%;
+    margin-bottom: -10%;
+}
+
+.input {
+    height: 45px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #F2F9FF;
+    padding-left: 10px;
+}
+
+a {
+    color: #E73F0A;
+    font-size: 15px;
+    font-family: 'Manrope';
+}

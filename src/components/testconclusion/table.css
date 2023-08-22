@@ -1,0 +1,236 @@
+table {
+    width: 95%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: white;
+    font-family: poppins;
+    border-radius: 10px;
+  }
+  thead{
+    background-color: white;
+  }
+  .customization,.checkinvoice{
+    margin-left: 30px !important;
+    font-size: 20px;
+    color:  #929292;
+    font-size: 400;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .checkinvoice{
+    margin-top: 12%;
+  }
+  th,
+  td {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+  }
+  td{
+    color:  rgba(15, 112, 200, 1);
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr{
+    background-color: transparent;
+      width: 1116px;
+  height: 54px;
+  top: 792px;
+  left: 292px;
+  border-radius: 10px;
+  border: 1px;
+
+  }
+  
+  table th input[type="checkbox"] {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px;
+
+  }
+  
+  table td input[type="checkbox"] {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .editp {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    background: none;
+    color: rgba(55, 125, 255, 1);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  select{
+    width: 105px;
+    background-color: white;
+    border-radius: 7px;
+    outline: none;
+    padding: 8px 28px 8px 10px; 
+    padding-right: 20px;
+    border: 1px solid #ccc;
+  }
+  select:focus {
+    border-color: #377dff;
+    box-shadow: 0 0 0 2px rgba(55, 125, 255, 0.2);
+  }
+  thead{
+    margin-bottom: 20px !important;
+    background-color: rgb(255, 255, 255) !important;
+  }
+  .filter,.year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px 0;
+    height: 50px;
+  }
+  .year {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sortby {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(241, 80, 86, 1);
+  }
+  
+  .sorting {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filtervalues ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+ 
+  .filtervalues li,.seletedmonth {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 70px;
+    height: 42px !important;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+  }
+   .year{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-left: 30px;
+  }  
+  .testfilter{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+    height: 100%;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .filter {
+      flex-direction: column;
+    }
+    .tabledatashow{
+      overflow-x: scroll;
+      height: inherit;
+      width: inherit;
+    }
+    .checkinvoice{
+      margin-top: 18%;
+    }
+    table {
+      width: 200%;
+      overflow-x: auto;
+      border-collapse: collapse;
+      font-size: 16px;
+      text-align: center;
+      margin-left: 30px;
+      background-color: white;
+      font-family: poppins;
+      border-radius: 10px;
+    }
+    th,
+  td {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+  }
+  td{
+    color:  rgba(15, 112, 200, 1);
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr{
+    background-color: transparent;
+      width: 1116px;
+  height: 54px;
+  top: 792px;
+  left: 292px;
+  border-radius: 10px;
+  border: 1px;
+  }
+  }
+  .invoice{
+    width: 136px;
+height: 42px;
+padding: 6px 2px 6px 2px;
+border-radius: 8px;
+gap: 1px;
+border: 1px solid rgba(3, 204, 11, 1)
+
+  }
+  .chart
+  {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-left: 3%;
+  }

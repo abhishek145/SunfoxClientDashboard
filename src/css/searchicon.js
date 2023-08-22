@@ -1,0 +1,15 @@
+
+import React from 'react';
+
+const Searchicon = () => {
+  return (
+    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10.5417 19.2499C15.3512 19.2499 19.25 15.3511 19.25 10.5416C19.25 5.73211 15.3512 1.83325 10.5417 1.83325C5.73223 1.83325 1.83337 5.73211 1.83337 10.5416C1.83337 15.3511 5.73223 19.2499 10.5417 19.2499Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20.1666 20.1667L17.4166 17.4167" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    
+
+  );
+};
+
+export default Searchicon;

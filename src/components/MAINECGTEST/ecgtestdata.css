@@ -1,0 +1,302 @@
+.btnselect>h3{
+    margin-left: 30px;
+    margin-top: 7%;
+    width: 146px;
+    height: 42px;
+    top: 112px;
+    left: 292px;
+
+}
+.datashow>p{
+    margin-left: 30px;
+}
+.btnselect{
+ width: 100%;
+ display:  flex;
+}
+.datashow{
+    display: flex;
+    flex-direction: row;
+}
+.btnselect>.datashow{
+    flex: 0%;
+}
+.btnselect>.buttonaction{
+    display: flex;
+}
+.showdata{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    gap: 3%;
+}
+@media (max-width: 768px) {
+    .showdata{
+        flex-direction: column;
+        margin-left: 0px;
+    } 
+    .cards{
+        margin-top: 30px !important;
+    }
+}
+.buttonaction>button{
+    height: 50px;
+    width: 100px;
+    margin-top: 32%;
+}
+.cards{
+    height: 225px;
+    width: 261px;
+    border: 1px solid wheat;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color:rgba(169, 169, 169, 1);
+}
+.cards>.testtype{
+    margin-top: 20px;
+    color: rgba(15, 112, 200, 1);
+
+}
+.cards button{
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: rgba(241, 80, 86, 1);
+    margin-left: 0px;
+    margin-top: 6%;
+   cursor: pointer;
+}
+.cards button:hover{
+    color: rgb(237, 38, 44);
+}
+.imagerender{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url('../../components/ecgtest/icon.jpg');
+    background-size: contain;
+    border: 1px solid green;
+    margin-top: -15%;
+    margin-left: 5%;
+    width: 64px;
+    height: 64px;
+    border-radius: 200px;
+}
+.cards span{
+    color: black;
+}
+.insidecard{
+    height: 100vh;
+    width: 95%;
+    margin-top: 6%;
+
+}
+.hambugmenu {
+    display: flex;
+    flex-direction: row;
+}
+.menu, .navigate {
+    margin-left: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(169, 169, 169, 1);
+}
+
+.navigate {
+    margin-left: 0px;
+    color: rgba(15, 112, 200, 1);
+}
+
+.deviceid {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    gap: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.devicedetails, .testconclusion {
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(245, 246, 250, 1);
+}
+
+.waves {
+    background-color: white;
+    margin-left: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.waves h4 {
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+
+.hwa {
+    width: 95%;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.hwa > h4 {
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+
+.dataanalysis, .analysisodevice {
+    display: flex;
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    height: 167px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.intervel {
+    width: 245px;
+    height: 89px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(245, 246, 250, 1);
+}
+
+.intervel > span {
+    color: rgba(169, 169, 169, 1);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.analysisodevice > .devicesused, .condition {
+    width: 50%;
+}
+.devicesused{
+    display: flex;
+    flex-direction: column;
+     width: 546px;
+    }
+.devicesused span{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+}
+.details{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.mi{
+    align-items: center;
+    width: 100%;
+}
+.mi li{
+    width: 100%;
+    list-style-type: circle;
+}
+.mi li:hover{
+    background-color: transparent;
+    cursor: default;
+    color: rgba(169, 169, 169, 1);;
+
+}
+.analysisodevice {
+    padding: 10px;
+}
+
+.bar, .values, .indicator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.values{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.bar > .low, .mid, .high, .lowvalue, .midvalue, .highvalue, .lowindicator, .midindicator, .highindicator {
+    display: block;
+    height: 31px;
+    width: 80%;
+}
+
+.low {
+    background-color: rgba(77, 175, 72, 1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mid {
+    background-color: rgba(255, 199, 55, 1);
+}
+
+.high {
+    background-color: rgba(247, 73, 79, 1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.indicator{
+    position: relative;
+    width: 0;
+    height: 28px;
+    border-left: 15.5px solid transparent;
+    border-right: 15.5px solid transparent;
+    border-top: 31px solid black;
+    border-bottom: none;
+    margin-top: -3px;
+}
+/*this is hrv.js cs*/
+.hrvgraphone .hrvgraphtwo{
+    width: 50%;
+    background-color: black;
+    height: 500px;
+}
